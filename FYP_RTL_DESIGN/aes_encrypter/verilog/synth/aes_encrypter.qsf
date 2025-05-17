@@ -1,0 +1,96 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2016  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+# Date created = 16:59:50  March 02, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		aes_encrypter_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY aes_encrypter
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 16.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:59:50  MARCH 02, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "16.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[0].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[1].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[1].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[2].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[2].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[3].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[3].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[4].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[4].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[5].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[5].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[6].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[6].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[7].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[7].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[8].shift_rows_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:aes_rounds[8].sub_byte_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "fifo_128:input_fifo"
+set_instance_assignment -name VIRTUAL_PIN ON -to "fifo_128:output_fifo"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:shift_rows_last"
+set_instance_assignment -name VIRTUAL_PIN ON -to "sub_byte:sub_byte_last"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[0].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[1].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[2].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[3].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[4].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[5].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[6].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[7].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "mix_column:aes_rounds[8].mix_columns_inst"
+set_instance_assignment -name VIRTUAL_PIN ON -to "key_expansion:key_exp"
+set_instance_assignment -name VIRTUAL_PIN ON -to "shift_rows:aes_rounds[0].shift_rows_inst"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (SystemVerilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "SYSTEMVERILOG HDL" -section_id eda_simulation
+set_global_assignment -name SYSTEMVERILOG_FILE ../sim/tb_aes_encrypter.sv
+set_global_assignment -name SDC_FILE aes_encrypter.out.sdc
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../sub_byte/verilog/rtl/sub_byte.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../shift_rows/verilog/rtl/shift_rows.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../mix_column/verilog/rtl/mix_column.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../mix_column/verilog/rtl/gf_mul.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../memory/verilog/rtl/aes_sbox.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../key_expansion/verilog/rtl/sub_word.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../key_expansion/verilog/rtl/key_expansion.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../fifo_128/verilog/rtl/fifo_128.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/aes_encrypter.sv
+set_global_assignment -name OPTIMIZATION_MODE "HIGH PERFORMANCE EFFORT"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at key_expansion.sv(16): always construct contains both blocking and non-blocking assignments File: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/key_expansion.sv Line: 16

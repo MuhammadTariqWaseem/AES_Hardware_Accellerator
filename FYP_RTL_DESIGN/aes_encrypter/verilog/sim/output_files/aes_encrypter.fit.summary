@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Mar 03 15:26:17 2025
+Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
+Revision Name : aes_encrypter
+Top-level Entity Name : aes_encrypter
+Family : Cyclone IV E
+Device : EP4CE30F29C6
+Timing Models : Final
+Total logic elements : 2,103 / 28,848 ( 7 % )
+    Total combinational functions : 1,645 / 28,848 ( 6 % )
+    Dedicated logic registers : 1,924 / 28,848 ( 7 % )
+Total registers : 1926
+Total pins : 388 / 533 ( 73 % )
+Total virtual pins : 0
+Total memory bits : 82,176 / 608,256 ( 14 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

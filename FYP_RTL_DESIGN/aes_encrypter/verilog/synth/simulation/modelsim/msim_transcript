@@ -1,0 +1,912 @@
+# Reading C:/intelFPGA/16.1/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# do aes_encrypter_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/16.1/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# 
+# Top level modules:
+# 	sub_byte
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 17:54:58 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/rtl {C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/rtl/aes_encrypter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:54:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/rtl" C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/rtl/aes_encrypter.sv 
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	aes_encrypter
+# End time: 17:54:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+ls
+# aes_encrypter.sft                       aes_encrypter_modelsim.xrf                  aes_encrypter_run_msim_rtl_verilog.do.bak6  
+# aes_encrypter.svo                       aes_encrypter_run_msim_rtl_verilog.do       aes_encrypter_v.sdo                         
+# aes_encrypter_6_1200mv_0c_slow.svo      aes_encrypter_run_msim_rtl_verilog.do.bak   modelsim.ini                                
+# aes_encrypter_6_1200mv_0c_v_slow.sdo    aes_encrypter_run_msim_rtl_verilog.do.bak1  msim_transcript                             
+# aes_encrypter_6_1200mv_85c_slow.svo     aes_encrypter_run_msim_rtl_verilog.do.bak2  sbox.mif                                    
+# aes_encrypter_6_1200mv_85c_v_slow.sdo   aes_encrypter_run_msim_rtl_verilog.do.bak3  vsim.wlf                                    
+# aes_encrypter_min_1200mv_0c_fast.svo    aes_encrypter_run_msim_rtl_verilog.do.bak4                                              
+# aes_encrypter_min_1200mv_0c_v_fast.sdo  aes_encrypter_run_msim_rtl_verilog.do.bak5                                              
+# 
+# rtl_work:
+# _info  _lib.qdb  _lib1_0.qdb  _lib1_0.qpg  _lib1_0.qtl  _vmake                
+cd C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim
+# reading modelsim.ini
+
+
+
+ls
+# modelsim.ini  run_tb_aes_encrypter.do  tb_aes_encrypter.sv                                                
+# 
+# altera_mf:
+# _info                                                                                                                                                                
+# 
+# db:
+# .cmp.kpt                                                           
+# aes_encrypter.(0).cnf.cdb                                          
+# aes_encrypter.(0).cnf.hdb                                          
+# aes_encrypter.(1).cnf.cdb                                          
+# aes_encrypter.(1).cnf.hdb                                          
+# aes_encrypter.(10).cnf.cdb                                         
+# aes_encrypter.(10).cnf.hdb                                         
+# aes_encrypter.(2).cnf.cdb                                          
+# aes_encrypter.(2).cnf.hdb                                          
+# aes_encrypter.(3).cnf.cdb                                          
+# aes_encrypter.(3).cnf.hdb                                          
+# aes_encrypter.(4).cnf.cdb                                          
+# aes_encrypter.(4).cnf.hdb                                          
+# aes_encrypter.(5).cnf.cdb                                          
+# aes_encrypter.(5).cnf.hdb                                          
+# aes_encrypter.(6).cnf.cdb                                          
+# aes_encrypter.(6).cnf.hdb                                          
+# aes_encrypter.(7).cnf.cdb                                          
+# aes_encrypter.(7).cnf.hdb                                          
+# aes_encrypter.(8).cnf.cdb                                          
+# aes_encrypter.(8).cnf.hdb                                          
+# aes_encrypter.(9).cnf.cdb                                          
+# aes_encrypter.(9).cnf.hdb                                          
+# aes_encrypter.asm.qmsg                                             
+# aes_encrypter.asm.rdb                                              
+# aes_encrypter.asm_labs.ddb                                         
+# aes_encrypter.cbx.xml                                              
+# aes_encrypter.cmp.bpm                                              
+# aes_encrypter.cmp.cdb                                              
+# aes_encrypter.cmp.hdb                                              
+# aes_encrypter.cmp.idb                                              
+# aes_encrypter.cmp.logdb                                            
+# aes_encrypter.cmp.rdb                                              
+# aes_encrypter.cmp_merge.kpt                                        
+# aes_encrypter.cycloneive_io_sim_cache.31um_ff_1200mv_0c_fast.hsd   
+# aes_encrypter.cycloneive_io_sim_cache.31um_tt_1200mv_0c_slow.hsd   
+# aes_encrypter.cycloneive_io_sim_cache.31um_tt_1200mv_85c_slow.hsd  
+# aes_encrypter.db_info                                              
+# aes_encrypter.fit.qmsg                                             
+# aes_encrypter.hier_info                                            
+# aes_encrypter.hif                                                  
+# aes_encrypter.lpc.html                                             
+# aes_encrypter.lpc.rdb                                              
+# aes_encrypter.lpc.txt                                              
+# aes_encrypter.map.ammdb                                            
+# aes_encrypter.map.bpm                                              
+# aes_encrypter.map.cdb                                              
+# aes_encrypter.map.hdb                                              
+# aes_encrypter.map.kpt                                              
+# aes_encrypter.map.logdb                                            
+# aes_encrypter.map.qmsg                                             
+# aes_encrypter.map.rdb                                              
+# aes_encrypter.map_bb.cdb                                           
+# aes_encrypter.map_bb.hdb                                           
+# aes_encrypter.map_bb.logdb                                         
+# aes_encrypter.pre_map.hdb                                          
+# aes_encrypter.root_partition.map.reg_db.cdb                        
+# aes_encrypter.routing.rdb                                          
+# aes_encrypter.rtlv.hdb                                             
+# aes_encrypter.rtlv_sg.cdb                                          
+# aes_encrypter.rtlv_sg_swap.cdb                                     
+# aes_encrypter.sld_design_entry.sci                                 
+# aes_encrypter.sld_design_entry_dsc.sci                             
+# aes_encrypter.smart_action.txt                                     
+# aes_encrypter.sta.qmsg                                             
+# aes_encrypter.sta.rdb                                              
+# aes_encrypter.sta_cmp.6_slow_1200mv_85c.tdb                        
+# aes_encrypter.taw.rdb                                              
+# aes_encrypter.tis_db_list.ddb                                      
+# aes_encrypter.tiscmp.fast_1200mv_0c.ddb                            
+# aes_encrypter.tiscmp.slow_1200mv_0c.ddb                            
+# aes_encrypter.tiscmp.slow_1200mv_85c.ddb                           
+# aes_encrypter.tmw_info                                             
+# aes_encrypter.vpr.ammdb                                            
+# aes_encrypter_partition_pins.json                                  
+# altsyncram_dt21.tdf                                                
+# prev_cmp_aes_encrypter.qmsg                                        
+# 
+# incremental_db:
+# README  compiled_partitions                                                                              
+# 
+# output_files:
+# aes_encrypter.asm.rpt  aes_encrypter.fit.smsg     aes_encrypter.jdi          aes_encrypter.pin  aes_encrypter.sta.rpt      
+# aes_encrypter.done     aes_encrypter.fit.summary  aes_encrypter.map.rpt      aes_encrypter.sld  aes_encrypter.sta.summary  
+# aes_encrypter.fit.rpt  aes_encrypter.flow.rpt     aes_encrypter.map.summary  aes_encrypter.sof                             
+# 
+# work:
+# _info  _lib.qdb  _lib1_0.qdb  _lib1_0.qpg  _lib1_0.qtl  _vmake                
+do run_tb_aes_encrypter.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:10 on Mar 09,2025
+# vlog -reportprogress 300 -sv tb_aes_encrypter.sv ../rtl/aes_encrypter.sv 
+# -- Compiling module tb_aes_encrypter
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	tb_aes_encrypter
+# End time: 18:00:10 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:10 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 18:00:10 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:11 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 18:00:11 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:11 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 18:00:11 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:11 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 18:00:11 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:11 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 18:00:11 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:11 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 18:00:11 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:11 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 18:00:11 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:00:11 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# ** Error: (vlog-13069) C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv(8): near ";": syntax error, unexpected ';'.
+# End time: 18:00:11 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/16.1/quartus/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./run_tb_aes_encrypter.do line 21
+# C:/intelFPGA/16.1/quartus/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv "
+do run_tb_aes_encrypter.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:12 on Mar 09,2025
+# vlog -reportprogress 300 -sv tb_aes_encrypter.sv ../rtl/aes_encrypter.sv 
+# -- Compiling module tb_aes_encrypter
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	tb_aes_encrypter
+# End time: 18:01:12 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:12 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 18:01:12 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:12 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 18:01:13 on Mar 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:13 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 18:01:13 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:13 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 18:01:13 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:13 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 18:01:13 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:13 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 18:01:13 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:13 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 18:01:13 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:01:13 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# 
+# Top level modules:
+# 	sub_byte
+# End time: 18:01:13 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# OpenFile tb_aes_encrypter.sv
+# ** Error: No Design Loaded!
+# Error in macro ./run_tb_aes_encrypter.do line 27
+# No Design Loaded!
+#     while executing
+# "run -all"
+do run_tb_aes_encrypter.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:40 on Mar 09,2025
+# vlog -reportprogress 300 -sv tb_aes_encrypter.sv ../rtl/aes_encrypter.sv 
+# -- Compiling module tb_aes_encrypter
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	tb_aes_encrypter
+# End time: 18:02:40 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:40 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:41 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:41 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:41 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:41 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:41 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:41 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:02:41 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# 
+# Top level modules:
+# 	sub_byte
+# End time: 18:02:41 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt tb_aes_encrypter 
+# Start time: 18:02:43 on Mar 09,2025
+# Loading sv_std.std
+# Loading work.tb_aes_encrypter
+# Loading work.aes_encrypter
+# Loading work.key_expansion
+# Loading work.sub_word
+# Loading work.fifo_128
+# Loading work.sub_byte
+# Loading work.shift_rows
+# Loading work.aes_sbox
+# Loading work.mix_column
+# Loading work.gf_mul
+# ** Warning: (vsim-3015) ../rtl/aes_encrypter.sv(29): [PCDPC] - Port size (1) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_aes_encrypter/aes_encrypter/input_fifo File: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv
+# ** Warning: (vsim-3015) ../rtl/aes_encrypter.sv(29): [PCDPC] - Port size (1) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_aes_encrypter/aes_encrypter/input_fifo File: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv
+# ** Warning: (vsim-3015) ../rtl/aes_encrypter.sv(114): [PCDPC] - Port size (1) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_aes_encrypter/aes_encrypter/output_fifo File: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv
+# ** Warning: (vsim-3015) ../rtl/aes_encrypter.sv(114): [PCDPC] - Port size (1) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_aes_encrypter/aes_encrypter/output_fifo File: C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv
+# ** Note: $stop    : tb_aes_encrypter.sv(51)
+#    Time: 20105 ns  Iteration: 1  Instance: /tb_aes_encrypter
+# Break in Module tb_aes_encrypter at tb_aes_encrypter.sv line 51
+
+do run_tb_aes_encrypter.do
+# Error 31: Unable to unlink file "C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:32 on Mar 09,2025
+# vlog -reportprogress 300 -sv tb_aes_encrypter.sv ../rtl/aes_encrypter.sv 
+# -- Compiling module tb_aes_encrypter
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	tb_aes_encrypter
+# End time: 18:07:32 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:32 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 18:07:32 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:32 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 18:07:32 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:32 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 18:07:32 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:32 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 18:07:32 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:33 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 18:07:33 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:33 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 18:07:33 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:33 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 18:07:33 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:07:33 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# 
+# Top level modules:
+# 	sub_byte
+# End time: 18:07:33 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:07:36 on Mar 09,2025, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 4
+# vsim -novopt tb_aes_encrypter 
+# Start time: 18:07:36 on Mar 09,2025
+# Loading sv_std.std
+# Loading work.tb_aes_encrypter
+# Loading work.aes_encrypter
+# Loading work.key_expansion
+# Loading work.sub_word
+# Loading work.fifo_128
+# Loading work.sub_byte
+# Loading work.shift_rows
+# Loading work.aes_sbox
+# Loading work.mix_column
+# Loading work.gf_mul
+# ** Note: $stop    : tb_aes_encrypter.sv(51)
+#    Time: 20105 ns  Iteration: 1  Instance: /tb_aes_encrypter
+# Break in Module tb_aes_encrypter at tb_aes_encrypter.sv line 51
+do run_tb_aes_encrypter.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:58 on Mar 09,2025
+# vlog -reportprogress 300 -sv tb_aes_encrypter.sv ../rtl/aes_encrypter.sv 
+# -- Compiling module tb_aes_encrypter
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	tb_aes_encrypter
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:09:59 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 18:09:59 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:10:00 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# 
+# Top level modules:
+# 	sub_byte
+# End time: 18:10:00 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:10:08 on Mar 09,2025, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 0
+# vsim -novopt tb_aes_encrypter 
+# Start time: 18:10:08 on Mar 09,2025
+# Loading sv_std.std
+# Loading work.tb_aes_encrypter
+# Loading work.aes_encrypter
+# Loading work.key_expansion
+# Loading work.sub_word
+# Loading work.fifo_128
+# Loading work.sub_byte
+# Loading work.shift_rows
+# Loading work.aes_sbox
+# Loading work.mix_column
+# Loading work.gf_mul
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/wave_tb_aes_encrypter.do
+# Break key hit
+# Break in Module gf_mul at C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv line 12
+
+
+do run_tb_aes_encrypter.do
+# Error 31: Unable to unlink file "C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/work".
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:01 on Mar 09,2025
+# vlog -reportprogress 300 -sv tb_aes_encrypter.sv ../rtl/aes_encrypter.sv 
+# -- Compiling module tb_aes_encrypter
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	tb_aes_encrypter
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:12:02 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# 
+# Top level modules:
+# 	sub_byte
+# End time: 18:12:02 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:12:06 on Mar 09,2025, Elapsed time: 0:01:58
+# Errors: 0, Warnings: 0
+# vsim -novopt tb_aes_encrypter 
+# Start time: 18:12:06 on Mar 09,2025
+# Loading sv_std.std
+# Loading work.tb_aes_encrypter
+# Loading work.aes_encrypter
+# Loading work.key_expansion
+# Loading work.sub_word
+# Loading work.fifo_128
+# Loading work.sub_byte
+# Loading work.shift_rows
+# Loading work.aes_sbox
+# Loading work.mix_column
+# Loading work.gf_mul
+add wave sim:/tb_aes_encrypter/aes_encrypter/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/wave_tb_aes_encrypter.do
+# Break key hit
+# Break in Module gf_mul at C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv line 17
+do run_tb_aes_encrypter.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:29 on Mar 09,2025
+# vlog -reportprogress 300 -sv tb_aes_encrypter.sv ../rtl/aes_encrypter.sv 
+# -- Compiling module tb_aes_encrypter
+# -- Compiling module aes_encrypter
+# 
+# Top level modules:
+# 	tb_aes_encrypter
+# End time: 18:15:29 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:29 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/fifo_128/verilog/rtl/fifo_128.sv 
+# -- Compiling module fifo_128
+# 
+# Top level modules:
+# 	fifo_128
+# End time: 18:15:29 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:29 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/key_expansion.sv 
+# -- Compiling module key_expansion
+# 
+# Top level modules:
+# 	key_expansion
+# End time: 18:15:30 on Mar 09,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:30 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/key_expansion/verilog/rtl/sub_word.sv 
+# -- Compiling module sub_word
+# 
+# Top level modules:
+# 	sub_word
+# End time: 18:15:30 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:30 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/memory/verilog/rtl/aes_sbox.sv 
+# -- Compiling module aes_sbox
+# 
+# Top level modules:
+# 	aes_sbox
+# End time: 18:15:30 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:30 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/mix_column.sv 
+# -- Compiling module mix_column
+# 
+# Top level modules:
+# 	mix_column
+# End time: 18:15:30 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:30 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/mix_column/verilog/rtl/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 18:15:30 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:30 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/shift_rows/verilog/rtl/shift_rows.sv 
+# -- Compiling module shift_rows
+# 
+# Top level modules:
+# 	shift_rows
+# End time: 18:15:30 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:15:30 on Mar 09,2025
+# vlog -reportprogress 300 -sv C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/sub_byte/verilog/rtl/sub_byte.sv 
+# -- Compiling module sub_byte
+# 
+# Top level modules:
+# 	sub_byte
+# End time: 18:15:30 on Mar 09,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:15:33 on Mar 09,2025, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 0
+# vsim -novopt tb_aes_encrypter 
+# Start time: 18:15:34 on Mar 09,2025
+# Loading sv_std.std
+# Loading work.tb_aes_encrypter
+# Loading work.aes_encrypter
+# Loading work.key_expansion
+# Loading work.sub_word
+# Loading work.fifo_128
+# Loading work.sub_byte
+# Loading work.shift_rows
+# Loading work.aes_sbox
+# Loading work.mix_column
+# Loading work.gf_mul
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/wave_tb_aes_encrypter.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/PMLS/Desktop/FYP_RTL_DESIGN/aes_encrypter/verilog/sim/wave_tb_aes_encrypter.do
